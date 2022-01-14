@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="M.YZ.Basement.Infra.Data.Sql.Commands" Version="6.0.101.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\01. Core\DehkadehAmoozesh.BasicInfo.API.Core.Domain\DehkadehAmoozesh.BasicInfo.API.Core.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="M.YZ.Basement.Core.ApplicationServices" Version="6.0.101.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DehkadehAmoozesh.BasicInfo.API.Core.Domain\DehkadehAmoozesh.BasicInfo.API.Core.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="M.YZ.Basement.Utilities" />
+		<Using Include="FluentValidation" />
+		<Using Include="M.YZ.Basement.Utilities.Services.Localizations" />
+		<Using Include="M.YZ.Basement.Core.Contracts.ApplicationServices.Commands" />
+		<Using Include="M.YZ.Basement.Core.Contracts.ApplicationServices.Queries" />
+		<Using Include="M.YZ.Basement.Core.ApplicationServices.Commands" />
+		<Using Include="M.YZ.Basement.Core.ApplicationServices.Queries" />
+		<Using Include="M.YZ.Basement.Core.Contracts.Data.Commands" />
+		<Using Include="M.YZ.Basement.Core.Contracts.Data.Queries" />
+		<Using Include="DehkadehAmoozesh.BasicInfo.API.Core.Domain" />
+	</ItemGroup>
+
+</Project>

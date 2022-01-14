@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DehkadehAmoozesh.Utilities" Version="6.0.101.101" />
+		<PackageReference Include="M.YZ.Basement.Core.Contracts" Version="6.0.101.101" />
+		<PackageReference Include="M.YZ.Basement.Core.Domain" Version="6.0.101.1" />
+		<PackageReference Include="M.YZ.Basement.Core.Domain.Toolkits" Version="6.0.101.1" />
+		<PackageReference Include="M.YZ.Basement.Utilities" Version="6.0.101.101" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Aggregate\Fields\QueryModels\Inputs\" />
+		<Folder Include="Aggregate\Fields\QueryModels\Outputs\" />
+		<Folder Include="Aggregate\Provinces\Contracts\" />
+		<Folder Include="Common\Enums\" />
+		<Folder Include="Common\ValueObjects\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="DA.Utilities.Extensions" />
+		<Using Include="M.YZ.Basement.Core.Domain.Entities" />
+		<Using Include="M.YZ.Basement.Core.Contracts.Data.Commands" />
+		<Using Include="M.YZ.Basement.Core.Contracts.Data.Queries" />
+		<Using Include="M.YZ.Basement.Core.Domain.ValueObjects" />
+		<Using Include="M.YZ.Basement.Core.Contracts.ApplicationServices.Commands" />
+		<Using Include="M.YZ.Basement.Core.Contracts.ApplicationServices.Queries" />
+		<Using Include="M.YZ.Basement.Core.Domain.Events" />
+	</ItemGroup>
+
+</Project>

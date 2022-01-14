@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="M.YZ.Basement.Infra.Data.Sql.Queries" Version="6.0.101.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\01. Core\DehkadehAmoozesh.BasicInfo.API.Core.Domain\DehkadehAmoozesh.BasicInfo.API.Core.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="DA.Utilities.Extensions" />
+		<Using Include="M.YZ.Basement.Core.Contracts.Data.Queries" />
+		<Using Include="M.YZ.Basement.Infra.Data.Sql.Queries" />
+	</ItemGroup>
+
+</Project>

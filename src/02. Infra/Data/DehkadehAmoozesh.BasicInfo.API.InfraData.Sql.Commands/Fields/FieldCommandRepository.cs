@@ -1,5 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.Entities;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.Entities;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.Common;
 using M.YZ.Basement.Infra.Data.Sql.Commands;
 

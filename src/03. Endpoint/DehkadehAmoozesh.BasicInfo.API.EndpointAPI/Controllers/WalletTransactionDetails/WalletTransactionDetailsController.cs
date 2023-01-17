@@ -1,9 +1,9 @@
 ﻿using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Commands.CreateWalletTransactionDetail;
 using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Queries.GetWalletTransactionDetailById;
 using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Queries.GetWalletTransactionDetails;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.QueryModels.Outputs;
-using Microsoft.AspNetCore.Mvc;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.QueryModels.Outputs;
 using M.YZ.Basement.EndPoints.Web.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DehkadehAmoozesh.BasicInfo.API.EndpointAPI.Controllers.WalletTransactionDetails;
 

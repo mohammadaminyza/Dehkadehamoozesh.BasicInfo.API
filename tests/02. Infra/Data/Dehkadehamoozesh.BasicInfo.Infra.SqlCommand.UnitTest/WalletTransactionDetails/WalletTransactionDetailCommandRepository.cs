@@ -1,4 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Contracts;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.EndpointAPI;
 using Xunit;
 
 namespace Dehkadehamoozesh.BasicInfo.Infra.SqlCommand.UnitTest.WalletTransactionDetails;

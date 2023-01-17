@@ -1,5 +1,4 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Entities;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Enums;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Entities;
 using Moq;
 
 namespace Dehkadehamoozesh.BasicInfo.Domain.UnitTest.Tickets.Entities;

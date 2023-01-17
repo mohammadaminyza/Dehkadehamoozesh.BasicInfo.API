@@ -1,5 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.QueryModels.Outputs;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.QueryModels.Outputs;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Fields.Queries.GetFields;
 

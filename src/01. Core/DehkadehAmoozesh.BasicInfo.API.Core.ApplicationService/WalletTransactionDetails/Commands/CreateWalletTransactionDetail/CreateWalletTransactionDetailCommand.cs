@@ -1,5 +1,4 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Enums;
-using M.YZ.Basement.Core.ApplicationServices.Commands;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Enums;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Commands.CreateWalletTransactionDetail;
 public class CreateWalletTransactionDetailCommand : ICommand

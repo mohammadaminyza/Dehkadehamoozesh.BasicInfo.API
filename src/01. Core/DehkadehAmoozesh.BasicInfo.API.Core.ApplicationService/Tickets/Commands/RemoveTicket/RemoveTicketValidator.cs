@@ -1,5 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Contracts;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Commands.RemoveTicket;
 

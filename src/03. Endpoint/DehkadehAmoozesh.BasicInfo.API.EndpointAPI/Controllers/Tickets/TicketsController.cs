@@ -3,9 +3,9 @@ using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Commands.Cr
 using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Commands.RemoveTicket;
 using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Queries.GetTickets;
 using DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Queries.GetTicketWithAnswerById;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.QueryModels.Outputs;
-using Microsoft.AspNetCore.Mvc;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.QueryModels.Outputs;
 using M.YZ.Basement.EndPoints.Web.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DehkadehAmoozesh.BasicInfo.API.EndpointAPI.Controllers.Tickets;
 

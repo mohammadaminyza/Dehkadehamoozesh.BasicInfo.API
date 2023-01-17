@@ -1,7 +1,7 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Entities;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Entities;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Entities;
 using M.YZ.Basement.Infra.Data.Sql.Commands;
+using Microsoft.EntityFrameworkCore;
 
 namespace DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.Common;
 

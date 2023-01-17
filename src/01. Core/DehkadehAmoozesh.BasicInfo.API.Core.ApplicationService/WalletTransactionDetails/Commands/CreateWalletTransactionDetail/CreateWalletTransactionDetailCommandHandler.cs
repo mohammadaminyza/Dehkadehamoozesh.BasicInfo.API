@@ -1,7 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Entities;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Contracts;
-using M.YZ.Basement.Core.ApplicationServices.Commands;
-using M.YZ.Basement.Utilities;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Entities;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Commands.CreateWalletTransactionDetail;
 

@@ -6,6 +6,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Common\Enums\**" />
+	  <EmbeddedResource Remove="Common\Enums\**" />
+	  <None Remove="Common\Enums\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="DehkadehAmoozesh.Utilities" Version="6.0.101.101" />
 		<PackageReference Include="M.YZ.Basement.Core.Contracts" Version="6.0.101.101" />
 		<PackageReference Include="M.YZ.Basement.Core.Domain" Version="6.0.101.1" />
@@ -14,10 +20,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Aggregate\Fields\QueryModels\Inputs\" />
-		<Folder Include="Aggregate\Fields\QueryModels\Outputs\" />
-		<Folder Include="Aggregate\Provinces\Contracts\" />
-		<Folder Include="Common\Enums\" />
+		<Folder Include="Provinces\Contracts\" />
 		<Folder Include="Common\ValueObjects\" />
 	</ItemGroup>
 

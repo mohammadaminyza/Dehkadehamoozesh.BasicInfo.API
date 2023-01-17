@@ -1,5 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Entities;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Entities;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.Common;
 using M.YZ.Basement.Infra.Data.Sql.Commands;
 

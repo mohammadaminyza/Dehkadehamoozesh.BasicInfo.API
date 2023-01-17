@@ -1,7 +1,6 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Contracts;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Contracts;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.Common;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Common.Contexts;
-using M.YZ.Basement.Utilities.Configurations;
 
 namespace DehkadehAmoozesh.BasicInfo.API.ApplicationServices.IntegrationTest;
 

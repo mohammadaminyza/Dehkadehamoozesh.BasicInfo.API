@@ -1,7 +1,7 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Entities;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Entities;
+using M.YZ.Basement.Core.Domain.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using M.YZ.Basement.Core.Domain.ValueObjects;
 using Description = DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common.ValueObjects.Description;
 
 namespace DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.Tickets.Config;

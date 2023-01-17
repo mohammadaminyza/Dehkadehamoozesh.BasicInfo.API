@@ -1,4 +1,4 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.QueryModels.Outputs;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.QueryModels.Outputs;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Common.Models;
 using M.YZ.Basement.Infra.Tools.OM.AutoMapper.MapperProfiles;
 

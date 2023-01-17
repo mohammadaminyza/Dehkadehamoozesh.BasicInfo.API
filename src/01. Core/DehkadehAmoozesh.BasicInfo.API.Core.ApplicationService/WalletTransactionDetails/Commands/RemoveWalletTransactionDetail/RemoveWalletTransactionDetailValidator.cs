@@ -1,8 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common;
-using FluentValidation;
-using M.YZ.Basement.Utilities.Services.Localizations;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Contracts;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.WalletTransactionDetails.Commands.RemoveWalletTransactionDetail;
 

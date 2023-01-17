@@ -1,8 +1,8 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.WalletTransactionDetails.Entities;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common.ValueObjects;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Common.ValueObjects;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.WalletTransactionDetails.Entities;
+using M.YZ.Basement.Core.Domain.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using M.YZ.Basement.Core.Domain.ValueObjects;
 
 namespace DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Commands.WalletTransactionDetails.Config;
 

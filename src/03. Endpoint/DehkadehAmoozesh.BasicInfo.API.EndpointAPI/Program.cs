@@ -32,4 +32,7 @@ app.UseBasementApiConfigure(basementOptions, app.Environment);
 app.Run();
 
 
-public partial class Program { }
+namespace DehkadehAmoozesh.BasicInfo.API.EndpointAPI
+{
+    public partial class Program { }
+}

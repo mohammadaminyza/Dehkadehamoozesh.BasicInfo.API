@@ -1,6 +1,6 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.QueryModels.Inputs;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Fields.QueryModels.Outputs;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.QueryModels.Inputs;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Fields.QueryModels.Outputs;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Common.Contexts;
 
 namespace DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Fields;

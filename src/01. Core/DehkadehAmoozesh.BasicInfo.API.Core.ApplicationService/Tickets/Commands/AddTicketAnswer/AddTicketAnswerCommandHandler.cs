@@ -1,5 +1,5 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Entities;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Entities;
 
 namespace DehkadehAmoozesh.BasicInfo.API.Core.ApplicationService.Tickets.Commands.AddTicketAnswer;
 

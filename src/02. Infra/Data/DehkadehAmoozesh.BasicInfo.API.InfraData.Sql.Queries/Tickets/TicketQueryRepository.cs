@@ -1,6 +1,6 @@
-﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.Contracts;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.QueryModels.Inputs;
-using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Aggregate.Tickets.QueryModels.Outputs;
+﻿using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.Contracts;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.QueryModels.Inputs;
+using DehkadehAmoozesh.BasicInfo.API.Core.Domain.Tickets.QueryModels.Outputs;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Common.Contexts;
 using DehkadehAmoozesh.BasicInfo.API.InfraData.Sql.Queries.Common.Models;
 using M.YZ.Basement.Utilities.Services.ObjectMappers;
